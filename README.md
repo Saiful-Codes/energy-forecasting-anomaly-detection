@@ -13,7 +13,6 @@ The system combines time-series feature engineering, supervised regression model
 
 The goal is to simulate a real-world energy monitoring system that could be deployed in smart home or industrial monitoring environments.
 
----
 
 ## Problem Statement
 
@@ -29,7 +28,6 @@ This project addresses two key objectives:
 1. Forecast future energy usage based on historical patterns.
 2. Detect anomalies by identifying unusually large deviations between predicted and actual values.
 
----
 
 ## Dataset
 
@@ -49,7 +47,6 @@ Processing steps:
 
 The final working dataset contains over 34,000 hourly observations.
 
----
 
 ## Modeling Approach
 
@@ -74,7 +71,6 @@ Time-based splitting was used:
 
 This ensures no future data leakage.
 
----
 
 ## Feature Engineering Logic
 
@@ -105,7 +101,6 @@ These features allow the model to capture:
 * Short-term momentum
 * Medium-term trend structure
 
----
 
 ## Evaluation Results
 
@@ -117,7 +112,6 @@ Model performance (validation set):
 
 The tree-based boosting model outperformed linear regression and baseline methods.
 
----
 
 ## Anomaly Detection Logic
 
@@ -139,7 +133,6 @@ Residual / Threshold
 
 This allows ranking anomalies by magnitude rather than binary detection alone.
 
----
 
 ## Streamlit Application
 
@@ -172,7 +165,6 @@ The application includes four functional pages:
 * Anomaly scoring
 * Downloadable scored report
 
----
 
 ## Project Structure
 
@@ -199,7 +191,6 @@ Energy-Forecasting-Anomaly-Detection/
 └── README.md
 ```
 
----
 
 ## How to Run
 
@@ -235,7 +226,6 @@ pip install -r requirements.txt
 streamlit run app/main.py
 ```
 
----
 
 ## Future Improvements
 
@@ -245,14 +235,10 @@ streamlit run app/main.py
 * Cloud deployment
 * Model monitoring dashboard
 
----
 
 ## Author
 
-Saiful Islam Shihab
-Bachelor of Computer Science (Artificial Intelligence Major)
-La Trobe University
-
-This project was developed as part of a structured machine learning portfolio roadmap focused on building industry-ready systems.
-
+- Saiful Islam Shihab
+- Bachelor of Computer Science (Artificial Intelligence Major)
+- La Trobe University
 ---
