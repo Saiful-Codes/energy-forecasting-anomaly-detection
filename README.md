@@ -241,4 +241,3 @@ streamlit run app/main.py
 - Saiful Islam Shihab
 - Bachelor of Computer Science (Artificial Intelligence Major)
 - La Trobe University
----
